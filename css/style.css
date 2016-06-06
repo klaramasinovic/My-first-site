@@ -1,0 +1,189 @@
+//font-family: 'Raleway', sans-serif;
+//font-family: 'PT Sans', sans-serif;
+//LINKOVI jarka losos --> E10A10
+//pozadina FFC656 -lijepa lagana žuta
+
+body{
+	font: 400 15px 'PT Sans', sans-serif;
+  line-height: 1.8;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 10px;  
+  color: #444;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+body section p{
+  font-size: 1.2em;
+}
+body section a:link, body section a:visited{
+  color:#FF8E34;
+}
+body section a:hover, body section a:active{
+  color:#FF8E34;
+  text-decoration: none;
+  border-bottom: 2px solid #FF8E34;
+}
+
+.table1, .table2{  
+  background:rgba(255,255,255,0);
+  color: #000;
+  text-align:left;  
+  margin-top: 5%;
+}
+.table1 tr td:first-child{
+vertical-align: top; 
+
+}
+.table1 td, .table2 td{
+  padding:2% 4% 2% 0%;
+  font-size: 1.2em;
+ }
+.table2 table{
+  margin-top: 5%;
+}
+.jumbotron {
+    background-color: #fff;
+   	color: #444;
+    padding: 100px 25px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0;
+  }
+  .jumbotron p{
+    font-size: 14px;
+  }
+.container-fluid {
+    padding: 60px 50px;
+  }
+
+/*NAVIGACIJA*/
+.navbar {
+    margin-bottom: 0;
+    background-color: #fff;
+
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+.navbar li a, .navbar .navbar-brand {
+    color:#000 !important;
+    text-transform: uppercase;
+  }
+.navbar-nav li:hover{
+  border-bottom: 2px solid #000;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000 !important;
+    background-color: #fff !important;    
+
+  }
+
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #FFD27A !important;
+  }
+.navbar-brand{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.navbar-nav{
+	letter-spacing: 2px;
+}
+
+/*BUTTONS*/
+
+.gumb,.gumb:visited{
+  font-size: 1.2em;
+	background-color: #FF8E34;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 0;
+	border-color: transparent;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: .2s;
+}
+.gumb:hover,.gumb:focus {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: 1px solid #444;
+  background-color: #fff;
+  color: #444;
+  }
+.gumb:active{
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  background-color: #444;
+  color: #fff;  
+}
+
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  svg{
+    margin-right: 2%;
+  }
+  
+  /*SLIDING*/
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;	
+      animation-duration: 1s;	
+      -webkit-animation-duration: 1s;
+      visibility: visible;			
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }	
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  .img-big{
+  	height: 100vh;
+  	background: #333;
+  	color: white;
+  	clear: both;
+  	position: relative;
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	background-position: center top;
+  	background-size: cover;
+  }
+  #contact{
+    background:url("../img/pattern.png") repeat;
+  }
