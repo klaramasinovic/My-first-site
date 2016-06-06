@@ -19,12 +19,13 @@ body section p{
   font-size: 1.2em;
 }
 body section a:link, body section a:visited{
-  color:#FF8E34;
+  color:#E10A10;
 }
-body section a:hover, body section a:active{
-  color:#FF8E34;
+
+body section a:hover, body section a:active, body section a:focus{
+  color:#E10A10;
   text-decoration: none;
-  border-bottom: 2px solid #FF8E34;
+  border-bottom: 2px solid #E10A10;
 }
 
 .table1, .table2{  
@@ -187,3 +188,25 @@ vertical-align: top;
   #contact{
     background:url("../img/pattern.png") repeat;
   }
+
+  .description-images{
+    margin:5% 0 20% 0;
+  }
+  .portfolio-item {
+    margin-bottom: 25px;
+}
+.pagination li {
+  border-radius:0px;
+}
+
+.pagination li a:hover{
+  border-color: transparent;
+  color:#444; 
+  background-color:rgba(255,0,0,0.3);
+
+}
+
+.pagination .active a:link, .pagination .active a:visited, .pagination .active a:hover{
+  border-color: transparent;
+  background-color:#444;
+}
